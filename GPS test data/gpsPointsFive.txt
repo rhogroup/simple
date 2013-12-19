@@ -1,0 +1,20 @@
+Seq number: 1
+Latitude - 42.3932    Longitude - -72.5294
+Seq number: 2
+Latitude - 42.3933    Longitude - -72.5294
+Seq number: 3
+Latitude - 42.3934    Longitude - -72.5293
+Seq number: 4
+Latitude - 42.3934    Longitude - -72.5292
+Seq number: 5
+Latitude - 42.3935    Longitude - -72.5291
+Seq number: 6
+Latitude - 42.3935    Longitude - -72.5291
+Seq number: 7
+Latitude - 42.3935    Longitude - -72.5289
+Seq number: 8
+Latitude - 42.3935    Longitude - -72.5288
+Seq number: 9
+Latitude - 42.3936    Longitude - -72.5287
+Seq number: 10
+Latitude - 42.3936    Longitude - -72.5287

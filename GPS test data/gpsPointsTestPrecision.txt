@@ -1,0 +1,6 @@
+Seq number: 1
+Latitude - 42.3928466666667    Longitude - -72.528885
+Seq number: 2
+Latitude - 42.392875    Longitude - -72.5289116666667
+Seq number: 3
+Latitude - 42.3929633333333    Longitude - -72.5288816666667

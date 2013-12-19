@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/26/trunk/simple/bin
+END
+gps_input_simple.txt
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/26/trunk/simple/bin/gps_input_simple.txt
+END
+gps_input_num.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/26/trunk/simple/bin/gps_input_num.txt
+END
+gps_input.txt
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/26/trunk/simple/bin/gps_input.txt
+END
+gps_text.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/26/trunk/simple/bin/gps_text.txt
+END
+test.txt
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/26/trunk/simple/bin/test.txt
+END

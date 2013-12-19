@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/26/trunk/simple/srv
+END
+controller_pub.srv
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/26/trunk/simple/srv/controller_pub.srv
+END
+controller_pub2.srv
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/26/trunk/simple/srv/controller_pub2.srv
+END
+set_goal.srv
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/26/trunk/simple/srv/set_goal.srv
+END
+setGoal.srv
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/26/trunk/simple/srv/setGoal.srv
+END

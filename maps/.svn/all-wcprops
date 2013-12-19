@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/26/trunk/simple/maps
+END
+quad_path.csv
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/26/trunk/simple/maps/quad_path.csv
+END
+quad_corners_data.csv
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/trunk/simple/maps/quad_corners_data.csv
+END
+quad_cones.csv
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/26/trunk/simple/maps/quad_cones.csv
+END
+cs_route.csv
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/26/trunk/simple/maps/cs_route.csv
+END

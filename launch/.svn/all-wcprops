@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/26/trunk/simple/launch
+END
+simple_1.launch
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/26/trunk/simple/launch/simple_1.launch
+END
+gps_arduino.launch
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/26/trunk/simple/launch/gps_arduino.launch
+END
+simple_all.launch
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/26/trunk/simple/launch/simple_all.launch
+END
+joy.launch
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/26/trunk/simple/launch/joy.launch
+END

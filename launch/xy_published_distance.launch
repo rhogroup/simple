@@ -1,0 +1,7 @@
+<!-- Modified this launch file for GPS testing and code development -Keval -->
+
+<launch>
+	<node name="latlonToXyDistancePublisher" pkg="simple" type="latlonToXyDistancePublisher.py" output="screen" />
+	<node name="atrvjrOdomNav" pkg="rflex" type="atrvjrOdomNav" output="screen"/>
+	<include file="$(find rflex)/launch/atrvjr-drivers.launch" />
+</launch>

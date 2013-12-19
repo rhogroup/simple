@@ -1,0 +1,59 @@
+import roslib; roslib.load_manifest('simple')
+import rospy
+import math
+
+def get_distance(a_lat, a_lon, b_lat, b_lon):
+
+	earth_radius = 6371000
+
+	x = earth_radius * (b_lon - a_lon) * math.pi / 180 * math.cos(a_lat * math.pi / 180)
+	y = earth_radius * (b_lat - a_lat) * math.pi / 180
+
+	distance = math.sqrt(x*x+y*y)
+
+	return distance
+
+def get_heading(a_lat, a_lon, b_lat, b_lon):
+
+	earth_radius = 6371000
+
+	x = earth_radius * (b_lon - a_lon) * math.pi / 180 * math.cos(a_lat * math.pi / 180)
+	y = earth_radius * (b_lat - a_lat) * math.pi / 180
+	
+	angle = math.degrees(math.atan(x/y))
+
+	if x >= 0:
+		if y >= 0:
+			return angle
+		else:
+			return 360 - angle
+	else:
+		if y >= 0:
+			return 180 - angle
+		else:
+			return 180 + angle 
+
+
+print "Distance: ", get_distance(42.3933, -72.52933, 42.393375, -72.5291566667)
+print "Heading: ", get_heading(42.3933, -72.52933, 42.393375, -72.5291566667)
+
+print "Distance: ", get_distance(47.6213, -122.3509, 47.620941, -122.351206)
+print "Heading: ", get_heading(47.6213, -122.3509, 47.620941, -122.351206)
+
+
+def publisher():
+    pub = rospy.Publisher('xy_distance', float)
+    rospy.init_node('latlon_to_xy_distance_publisher')
+    while not rospy.is_shutdown():
+        distance = get_distance(42.3933, -72.52933, 42.393375, -72.5291566667)
+        rospy.loginfo(distance)
+        pub.publish(float(distance))
+        rospy.sleep(1.0)
+
+if __name__ == '__main__':
+    try:
+        publisher()
+    except rospy.ROSInterruptException:
+        pass
+
+
